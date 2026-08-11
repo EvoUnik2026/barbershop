@@ -1,0 +1,19 @@
+# Barbershop Website Demo
+# =========================
+
+# Git
+.git/
+*.log
+.env
+
+# Docker
+docker-compose.override.yml
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

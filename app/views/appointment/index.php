@@ -25,9 +25,9 @@
                             <?php echo escape(s('address_street', '')); ?><br>
                             <?php echo escape(s('address_postal', '') . ' ' . s('address_city', '')); ?></p>
                         <p><strong>🕐 Openingstijden</strong><br>
-                            Ma-Ct: 10:00-18:00<br>
-                            Do-Vr: 10:00-21:00<br>
-                            Za: 10:00-18:00</p>
+                            Ma-Vr: 10:00 - 19:00<br>
+                            Za: 09:00 - 17:00<br>
+                            Zo: Gesloten</p>
                     </div>
 
                     <div class="services-reference">

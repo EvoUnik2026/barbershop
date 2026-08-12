@@ -49,13 +49,10 @@
         <div class="container header-inner">
             <div class="header-brand">
                 <a href="/" class="header-brand-link" id="logoLink">
-                    <img src="/images/dali.png" alt="<?php echo escape(s('shop_name')); ?>" class="logo-img">
-                    <div class="logo-tooltip">
-                        <img src="/images/dali.png" alt="<?php echo escape(s('shop_name')); ?> - Volledig logo">
-                    </div>
+                    <div class="brand-mark" aria-label="<?php echo escape(s('shop_name')); ?>">✂</div>
                     <div class="header-brand-text">
                         <span class="logo-name"><?php echo escape(s('shop_name')); ?></span>
-                        <span class="logo-tagline"><?php echo escape(s('tagline', 'Haar & Baard Styling')); ?></span>
+                        <span class="logo-tagline"><?php echo escape(s('tagline', 'Tailored Grooming')); ?></span>
                     </div>
                 </a>
             </div>

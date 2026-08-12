@@ -21,8 +21,8 @@ class ReviewController extends Controller
         $reviewCount = $reviewModel->getCount();
 
         $this->render('reviews/index', [
-            'page_title'       => 'Reviews - Angelo & Caribbean Barbershop',
-            'meta_description' => 'Lees reviews van tevreden klanten van Angelo & Caribbean Barbershop in Apeldoorn. Beoordeling: ' . $avgRating . '/5 sterren.',
+            'page_title'       => 'Reviews - Demo Barbershop',
+            'meta_description' => 'Lees reviews van tevreden klanten van Demo Barbershop. Beoordeling: ' . $avgRating . '/5 sterren.',
             'reviews'      => $reviews,
             'avg_rating'   => $avgRating,
             'review_count' => $reviewCount,

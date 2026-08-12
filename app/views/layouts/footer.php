@@ -3,14 +3,14 @@
         <div class="container footer-inner">
             <div class="footer-col">
                 <div class="footer-logo">
-                    <img src="/images/dali.png" alt="<?php echo escape(s('shop_name')); ?>" class="logo-img footer-logo-img">
+                    <div class="brand-mark footer-brand-mark" aria-label="<?php echo escape(s('shop_name')); ?>">✂</div>
                     <span class="logo-text">
                         <span class="logo-name"><?php echo escape(s('shop_name', 'Barbershop')); ?></span>
-                        <span class="logo-tagline"><?php echo escape(s('tagline', 'Haar & Baard Styling')); ?></span>
+                        <span class="logo-tagline"><?php echo escape(s('tagline', 'Tailored Grooming')); ?></span>
                     </span>
                 </div>
                 <p class="footer-tagline"><?php echo escape(s('tagline', 'Haar & Baard Styling voor Heren')); ?></p>
-                <p class="footer-since">Sinds <?php echo escape(s('since_year', '2015')); ?> &#8226; Apeldoorn</p>
+                <p class="footer-since">Sinds <?php echo escape(s('since_year', '2019')); ?> &#8226; Amsterdam</p>
             </div>
 
             <div class="footer-col">
@@ -32,12 +32,12 @@
             <div class="footer-col">
                 <h4 class="footer-title">Openingstijden</h4>
                 <table class="opening-hours">
-                    <tr><td>Maandag</td><td>13:00 - 18:00</td></tr>
-                    <tr><td>Dinsdag</td><td>10:00 - 18:00</td></tr>
-                    <tr><td>Woensdag</td><td>10:00 - 18:00</td></tr>
-                    <tr><td>Donderdag</td><td>10:00 - 21:00</td></tr>
-                    <tr><td>Vrijdag</td><td>10:00 - 21:00</td></tr>
-                    <tr><td>Zaterdag</td><td>10:00 - 18:00</td></tr>
+                    <tr><td>Maandag</td><td>10:00 - 19:00</td></tr>
+                    <tr><td>Dinsdag</td><td>10:00 - 19:00</td></tr>
+                    <tr><td>Woensdag</td><td>10:00 - 19:00</td></tr>
+                    <tr><td>Donderdag</td><td>10:00 - 20:00</td></tr>
+                    <tr><td>Vrijdag</td><td>10:00 - 20:00</td></tr>
+                    <tr><td>Zaterdag</td><td>09:00 - 17:00</td></tr>
                     <tr><td>Zondag</td><td class="closed">Gesloten</td></tr>
                 </table>
             </div>
@@ -68,15 +68,9 @@
         </div>
     </footer>
 
-    <!-- Logo Lightbox -->
-    <div class="logo-lightbox" id="logoLightbox">
-        <span class="logo-lightbox-close">&times;</span>
-        <img src="/images/dali.png" alt="<?php echo escape(s('shop_name')); ?> - Volledig logo">
-    </div>
-
     <!-- Floating Buttons -->
     <div class="floating-buttons">
-        <a href="https://wa.me/31618737335?text=Hallo%20Dali%20The%20Barber%2C%20ik%20wil%20graag%20een%20afspraak%20maken."
+        <a href="https://wa.me/31612345678?text=Hallo%20Demo%20Barbershop%2C%20ik%20wil%20graag%20een%20afspraak%20maken."
            class="floating-btn whatsapp-btn"
            aria-label="Chat met ons via WhatsApp"
            target="_blank"

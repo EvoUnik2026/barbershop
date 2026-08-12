@@ -16,8 +16,8 @@ class ContactController extends Controller
     public function index(): void
     {
         $this->render('contact/index', [
-            'page_title'       => 'Contact - Dali The Barber',
-            'meta_description' => 'Neem contact op met Dali The Barber in Apeldoorn. Bel +31618737335 of stuur een bericht. Adres: Asselsestraat 26a, 7311 EL Apeldoorn.',
+            'page_title'       => 'Contact - Demo Barbershop',
+            'meta_description' => 'Neem contact op met Demo Barbershop voor een afspraak, advies of een premium grooming behandeling.',
         ]);
     }
 

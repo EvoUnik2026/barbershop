@@ -35,8 +35,8 @@ class HomeController extends Controller
         $reviewCount = $reviewModel->getCount();
 
         $this->render('home/index', [
-            'page_title'       => 'Dali The Barber - Herenkapper in Apeldoorn',
-            'meta_description' => 'Welkom bij Dali The Barber in Apeldoorn. Gespecialiseerd in herenkapsels, skinfades en baardstyling. Boek nu je afspraak!',
+            'page_title'       => 'Demo Barbershop - Premium Herenbarbershop',
+            'meta_description' => 'Welkom bij Demo Barbershop. Premium herenkapsels, skinfades, baardstyling en grooming voor een strakke, moderne uitstraling.',
             'featured_services'  => $featuredServices,
             'reviews'           => $reviews,
             'avg_rating'        => $avgRating,

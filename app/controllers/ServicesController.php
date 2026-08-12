@@ -19,8 +19,8 @@ class ServicesController extends Controller
         $services = $serviceModel->getAllByCategory();
 
         $this->render('services/index', [
-            'page_title'       => 'Onze Diensten - Dali The Barber',
-            'meta_description' => 'Bekijk alle diensten van Dali The Barber: herenkapsels, skinfades, baardstyling, kleuren en verzorging. Scherpe prijzen in Apeldoorn.',
+            'page_title'       => 'Onze Diensten - Demo Barbershop',
+            'meta_description' => 'Bekijk de premium diensten van Demo Barbershop: herenkapsels, skinfades, baardstyling en grooming voor een strakke, moderne look.',
             'services' => $services,
         ]);
     }

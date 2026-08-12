@@ -33,8 +33,8 @@ class Controller
         // Standaard view data mergen
         $defaultData = [
             'page_title'       => $config['app']['name'],
-            'meta_description' => 'Welkom bij ' . $config['app']['name'] . '. Professionele herenkapper en barbier in Apeldoorn.',
-            'meta_keywords'    => 'barber, kapper, herenhaar, apeldoorn, afspraak, haar knippen, baard',
+            'meta_description' => 'Welkom bij ' . $config['app']['name'] . '. Premium herenbarbershop voor moderne kapsels, baardstyling en classic grooming.',
+            'meta_keywords'    => 'barbershop, herenkapper, baardstyling, grooming, premium kapsels, afspraak, moderne look',
             'base_url'         => rtrim($config['app']['base_url'], '/'),
             'shop_name'        => $config['app']['name'],
             'errors'           => $errors,

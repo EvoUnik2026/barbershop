@@ -18,7 +18,7 @@ return [
     'app' => [
         'env'   => getenv('APP_ENV') ?: 'production',
         'base_url' => rtrim(getenv('APP_URL') ?: 'http://localhost:8080', '/'),
-        'name'  => 'Dali The Barber',
+        'name'  => 'Demo Barbershop',
     ],
     'session' => [
         'name' => 'barbershop_session',

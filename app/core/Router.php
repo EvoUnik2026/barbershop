@@ -118,7 +118,7 @@ class Router
         $view = new View();
         $view->render('errors/404', [
             'page_title' => '404 - Pagina niet gevonden',
-            'meta_description' => 'De opgevraagde pagina kon niet worden gevonden bij Angelo & Caribbean Barbershop.',
+            'meta_description' => 'De opgevraagde pagina kon niet worden gevonden bij Demo Barbershop.',
         ]);
     }
 }

@@ -1,6 +1,6 @@
 -- ============================================================
 -- Database: barbershop
--- Demo data voor Dali The Barber
+-- Demo data voor Demo Barbershop
 -- ============================================================
 
 CREATE DATABASE IF NOT EXISTS `barbershop` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -93,19 +93,19 @@ CREATE TABLE IF NOT EXISTS `reviews` (
 -- ============================================================
 
 INSERT INTO `settings` (`key_name`, `value`) VALUES
-  ('shop_name', 'Dali The Barber'),
-  ('tagline', 'Ambacht & Vakmanschap'),
-  ('email', 'dalithebarber055@gmail.com'),
-  ('phone', '+31618737335'),
-  ('address_street', 'Asselsestraat 26a'),
-  ('address_city', 'Apeldoorn'),
-  ('address_postal', '7311 EL'),
-  ('latitude', '52.207402'),
-  ('longitude', '5.9302126'),
+  ('shop_name', 'Demo Barbershop'),
+  ('tagline', 'Premium Grooming for Men'),
+  ('email', 'hello@demobarbershop.com'),
+  ('phone', '+31 6 123 456 78'),
+  ('address_street', 'Kerkstraat 12'),
+  ('address_city', 'Amsterdam'),
+  ('address_postal', '1012 AB'),
+  ('latitude', '52.3676'),
+  ('longitude', '4.9041'),
   ('since_year', '2019'),
-  ('rating', '8.4'),
-  ('meta_description', 'Welkom bij Dali The Barber in Apeldoorn. Gespecialiseerd in herenkapsels, baardstyling en skinfades. Boek nu je afspraak.'),
-  ('meta_keywords', 'barber, kapper, herenhaar, apeldoorn, afspraak maken, haar knippen, baard, barbershop, skinfade, dali');
+  ('rating', '9.4'),
+  ('meta_description', 'Welkom bij Demo Barbershop. Premium herenkapsels, baardstyling en grooming voor een strakke, moderne look.'),
+  ('meta_keywords', 'barbershop, herenkapper, grooming, premium kapsels, baardstyling, afspraak maken, moderne look');
 
 INSERT INTO `services` (`category`, `name`, `description`, `price`, `duration`, `sort_order`) VALUES
   ('haircut', 'Klassiek Knippen', 'Een tijdloze herenknip met precisie en aandacht voor detail.', 25.00, 30, 1),

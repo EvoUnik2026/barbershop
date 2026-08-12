@@ -6,7 +6,7 @@
 <section class="page-hero section" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');">
     <div class="container">
         <h1 class="page-title">Contact</h1>
-        <p class="page-subtitle">Neem contact op met Dali The Barber</p>
+        <p class="page-subtitle">Neem contact op met Demo Barbershop</p>
     </div>
 </section>
 
@@ -45,8 +45,8 @@
                     <div class="contact-item">
                         <span class="contact-icon">👤</span>
                         <div>
-                            <strong>Eigenaar</strong>
-                            Dalibor Zdravkovski
+                            <strong>Team</strong>
+                            Premium Barber Experts
                         </div>
                     </div>
 

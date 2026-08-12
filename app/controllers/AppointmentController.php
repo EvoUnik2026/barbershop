@@ -20,8 +20,8 @@ class AppointmentController extends Controller
         $services = $serviceModel->getAllForSelect();
 
         $this->render('appointment/index', [
-            'page_title'       => 'Afspraak Maken - Angelo & Caribbean Barbershop',
-            'meta_description' => 'Maak eenvoudig een afspraak bij Angelo & Caribbean Barbershop in Apeldoorn. Kies een dienst, datum en tijd. Direct bevestiging per e-mail.',
+            'page_title'       => 'Afspraak Maken - Demo Barbershop',
+            'meta_description' => 'Plan eenvoudig je afspraak bij Demo Barbershop. Kies je dienst, datum en tijd en reserveer jouw premium grooming sessie.',
             'services' => $services,
         ]);
     }

@@ -6,7 +6,7 @@
 <section class="page-hero section" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');">
     <div class="container">
         <h1 class="page-title">Over Ons</h1>
-        <p class="page-subtitle">Jouw barbershop in Apeldoorn sinds <?php echo escape(s('since_year', '2019')); ?></p>
+        <p class="page-subtitle">Premium grooming en stijl sinds <?php echo escape(s('since_year', '2019')); ?></p>
     </div>
 </section>
 
@@ -15,44 +15,40 @@
     <div class="container">
         <div class="content-grid">
             <div class="content-col">
-                <h2 class="section-title">Over Dali The Barber</h2>
+                <h2 class="section-title">Over Demo Barbershop</h2>
                 <p class="lead">
-                    Mijn naam is Dalibor Zdravkovski en het barbervak is iets waar ik al mijn hele leven
-                    mee verbonden ben. Het vak zit al generaties lang in mijn familie en de passie
-                    daarvoor is mij van jongs af aan meegegeven.
+                    Bij Demo Barbershop geloven we dat een goede look meer is dan alleen een kapsel.
+                    Het is een statement van stijl, zelfvertrouwen en kwaliteit.
                 </p>
                 <p>
-                    Wat voor velen een beroep is, voelt voor mij als een ambacht waarin precisie,
-                    creativiteit en persoonlijke aandacht samenkomen. Mijn reis begon in 2019,
-                    tijdens de coronaperiode. Wat startte als een hobby, door vrienden en familie te
-                    knippen, groeide al snel uit tot een echte passie.
+                    Onze barbers combineren vakmanschap met een moderne aanpak, zodat iedere klant een
+                    behandeling krijgt die perfect past bij zijn haartype, gezichtsvorm en persoonlijke
+                    voorkeuren. Van klassieke snedes tot strakke fades en verzorgde baarden, alles wordt
+                    met precisie uitgevoerd.
                 </p>
                 <p>
-                    Ik besloot mezelf verder te ontwikkelen en behaalde een erkend diploma in het
-                    barbiersvak. Daarna heb ik ongeveer vijf jaar ervaring opgedaan bij verschillende
-                    barbershops, waar ik mijn technieken verder heb verfijnd. Toch merkte ik dat ik
-                    mijn eigen visie had op kwaliteit en service.
+                    We hebben een passie voor detail, nette afwerking en een lounge-achtige ervaring waarin
+                    je relaxed en welkom voelt. Onze missie is om elke klant niet alleen een frisse look te
+                    geven, maar ook een ervaring die voelt als premium grooming.
                 </p>
                 <p>
-                    Voor mij draait een knipbeurt niet alleen om een goed kapsel, maar om aandacht,
-                    vakmanschap en een ervaring waarbij iedere klant zich welkom voelt. Met een scherp
-                    oog voor detail en trots op mijn Macedonische afkomst streef ik er iedere dag naar
-                    om hoogwaardige kwaliteit te leveren tegen een eerlijke prijs.
+                    Met aandacht voor kwaliteit, comfort en stijlvolle service streven we er elke dag naar om
+                    een bezoek aan onze barbershop te laten voelen als een investering in jouw uitstraling.
                 </p>
                 <div class="badge-container">
                     <span class="badge badge-primary">Sinds <?php echo escape(s('since_year', '2019')); ?></span>
-                    <span class="badge">Eigenaar: Dalibor Z.</span>
+                    <span class="badge">Premium Styling</span>
                     <span class="badge">Ambacht & Vakmanschap</span>
                 </div>
             </div>
             <div class="content-col">
                 <div class="image-frame">
                     <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                         alt="Dalibor Zdravkovski - Dali The Barber" class="barber-img">
+                         alt="Premium herenbarbershop" class="barber-img">
                 </div>
                 <div class="team-info">
-                    <h3>Dalibor Zdravkovski - Barbier & Eigenaar</h3>
-                    <p>"Mijn doel is dat iedere klant niet alleen met een frisse look, maar ook met meer zelfvertrouwen de deur uitloopt."</p>
+                    <h3>Premium Service. Strakke Look. Moderne Grooming.</h3>
+                    <p>"Voor ons draait het om kwaliteit, detail en een look die je met vertrouwen de deur uit laat gaan."</p>
                 </div>
             </div>
         </div>
@@ -109,7 +105,7 @@
             </div>
             <div class="milestone-card milestone-card-lg">
                 <div class="milestone-icon">📍</div>
-                <div class="milestone-value">Apeldoorn</div>
+                <div class="milestone-value">Amsterdam</div>
                 <div class="milestone-label">Locatie</div>
             </div>
             <div class="milestone-card milestone-card-lg">

@@ -15,8 +15,8 @@ class AboutController extends Controller
     public function index(): void
     {
         $this->render('about/index', [
-            'page_title'       => 'Over Ons - Dali The Barber',
-            'meta_description' => "Over Dali The Barber in Apeldoorn. Dalibor Zdravkovski brengt meer dan vijf jaar ervaring mee als barbier. Ambacht, vakmanschap en persoonlijke aandacht.",
+            'page_title'       => 'Over Ons - Demo Barbershop',
+            'meta_description' => 'Ontdek Demo Barbershop: premium grooming, vakmanschap en een moderne uitstraling voor iedere man.',
         ]);
     }
 }

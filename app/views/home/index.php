@@ -13,17 +13,41 @@
     </video>
     <div class="hero-overlay"></div>
     <div class="container hero-content">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
         <div class="hero-text">
-            <h1 class="hero-title"><?php echo escape(s('shop_name', 'Barbershop')); ?></h1>
-            <p class="hero-tagline"><?php echo escape(s('tagline', 'Ambacht & Vakmanschap')); ?></p>
+            <h1 class="hero-title"><?php echo escape(s('shop_name', 'Demo Barbershop')); ?></h1>
+            <p class="hero-tagline"><?php echo escape(s('tagline', 'Luxury grooming for modern gentlemen')); ?></p>
             <p class="hero-desc">
-                &#x3C5; &#x3C2; <?php echo escape(s('since_year', '2019')); ?> &#8226; Apeldoorn &#8226; Klanttevredenheid <?php echo escape(s('rating', '8.4')); ?>/10
+                Sinds <?php echo escape(s('since_year', '2019')); ?> &#8226; Premium grooming &#8226; klanttevredenheid <?php echo escape(s('rating', '9.4')); ?>/10
             </p>
             <div class="hero-buttons">
                 <a href="/appointment" class="btn btn-primary btn-lg">Afspraak Maken</a>
                 <a href="/services" class="btn btn-secondary btn-lg">Onze Diensten</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feature-strip">
+    <div class="container feature-grid">
+        <div class="feature-item">
+            <span class="feature-icon">✂</span>
+            <div>
+                <h3>Crafted Cuts</h3>
+                <p>Precisie en stijl voor elke look.</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">🧔</span>
+            <div>
+                <h3>Beard Styling</h3>
+                <p>Strakke lijnen en premium finishing touch.</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <span class="feature-icon">✨</span>
+            <div>
+                <h3>Luxury Grooming</h3>
+                <p>Een premium ervaring met aandacht voor detail.</p>
             </div>
         </div>
     </div>
@@ -36,30 +60,29 @@
             <div class="content-col">
                 <h2 class="section-title">Welkom bij <?php echo escape(s('shop_name', 'Barbershop')); ?></h2>
                 <p class="lead">
-                    Dali The Barber is een moderne barbershop in het hart van Apeldoorn,
-                    waar vakmanschap en persoonlijke aandacht centraal staan.
+                    Demo Barbershop is een premium herenbarbershop waar stijl, precisie en grooming
+                    samenkomen in een stijlvolle, moderne ervaring.
                 </p>
                 <p>
-                    Eigenaar Dalibor Zdravkovski brengt meer dan vijf jaar ervaring mee uit verschillende
-                    barbershops. Wat voor velen een beroep is, voelt voor hem als een ambacht waarin
-                    precisie, creativiteit en persoonlijke aandacht samenkomen.
+                    Onze barbers geven elke klant een persoonlijke behandeling, afgestemd op gezichtsvorm,
+                    haartype en de look die past bij jouw identiteit. Van klassieke knipbeurten tot moderne
+                    fades en baardstyling, alles wordt uitgevoerd met aandacht voor detail.
                 </p>
                 <p>
-                    Met scherp oog voor detail en trots op zijn Macedonische afkomst leveren wij
-                    hoogwaardige kwaliteit tegen een eerlijke prijs. Of het nu een klassieke knipbeurt,
-                    een strakke skinfade of een volledige makeover is - je verlaat de shop met een
-                    frisse look en meer zelfvertrouwen.
+                    Met een focus op kwaliteit, comfort en een strakke uitstraling helpen we jou een look te
+                    creëren die vertrouwen geeft. Een bezoek bij ons is meer dan een afspraak: het is een
+                    ritueel voor jouw uitstraling.
                 </p>
                 <div class="badge-container">
                     <span class="badge">Sinds <?php echo escape(s('since_year', '2019')); ?></span>
-                    <span class="badge">100% Tevredenheid</span>
-                    <span class="badge">Eigenaar: Dalibor Z.</span>
+                    <span class="badge">Premium Styling</span>
+                    <span class="badge">Grooming & Detail</span>
                 </div>
             </div>
             <div class="content-col">
                 <div class="image-frame">
                     <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                         alt="Dali The Barber interieur" class="barber-img">
+                         alt="Premium herenbarbershop interieur" class="barber-img">
                 </div>
             </div>
         </div>
@@ -71,20 +94,20 @@
     <div class="carousel" id="homeCarousel">
         <div class="carousel-track" id="carouselTrack">
             <div class="carousel-slide active">
-                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80" alt="Dali The Barber interieur">
-                <div class="carousel-caption"><h3>Welkom bij Dali The Barber</h3><p>Ambacht & vakmanschap in Apeldoorn</p></div>
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80" alt="Premium barbershop interieur">
+                <div class="carousel-caption"><h3>Modern grooming, klassieke precisie</h3><p>Premium service voor een strakke, stijlvolle look</p></div>
             </div>
             <div class="carousel-slide">
                 <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80" alt="Perfecte skinfade">
-                <div class="carousel-caption"><h3>Ultra Strakke Fade</h3><p>De nieuwste haarstijlen op maat</p></div>
+                <div class="carousel-caption"><h3>Ultra strakke fade</h3><p>Moderne haircuts die precies bij jou passen</p></div>
             </div>
             <div class="carousel-slide">
                 <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80" alt="Baard scheren met mes">
-                <div class="carousel-caption"><h3>Baard Styling</h3><p>Perfect gevormd, met premium producten</p></div>
+                <div class="carousel-caption"><h3>Baard & grooming</h3><p>Verfijnde lijnvoering en premium verzorging</p></div>
             </div>
             <div class="carousel-slide">
                 <img src="https://images.unsplash.com/photo-1571902943223-12b96e5d2447?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80" alt="Barber bezig met knippen">
-                <div class="carousel-caption"><h3>Vakwerk</h3><p>Gespecialiseerd in elk haartype</p></div>
+                <div class="carousel-caption"><h3>Vakwerk</h3><p>Ervaring, detail en een perfecte finish</p></div>
             </div>
         </div>
 
@@ -98,8 +121,8 @@
     <div class="container">
         <div class="milestone-strip">
             <div class="ms-item"><span class="ms-value"><?php echo escape(s('since_year', '2015')); ?></span><span class="ms-label">Sinds</span></div>
-            <div class="ms-item"><span class="ms-value">Apeldoorn</span><span class="ms-label">Gevestigd</span></div>
-            <div class="ms-item"><span class="ms-value"><?php echo escape(s('rating', '8.4')); ?></span><span class="ms-label">Tevredenheid</span></div>
+            <div class="ms-item"><span class="ms-value">Premium</span><span class="ms-label">Grooming</span></div>
+            <div class="ms-item"><span class="ms-value"><?php echo escape(s('rating', '9.4')); ?></span><span class="ms-label">Tevredenheid</span></div>
             <div class="ms-item"><span class="ms-value">1500+</span><span class="ms-label">Klanten</span></div>
         </div>
     </div>
@@ -166,7 +189,7 @@
     <div class="container">
         <div class="cta-content">
             <h2>Klaar voor een nieuwe look?</h2>
-            <p>Boek nu je afspraak en ervaar het verschil van Dali The Barber.</p>
+            <p>Boek nu je afspraak en ervaar het verschil van een premium herenbarbershop.</p>
             <a href="/appointment" class="btn btn-primary btn-lg">Afspraak Maken</a>
         </div>
     </div>

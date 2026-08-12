@@ -5,7 +5,7 @@
 <section class="page-hero section" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');">
     <div class="container">
         <h1 class="page-title">Fotogalerij</h1>
-        <p class="page-subtitle">Een blik op Dali The Barber en ons werk</p>
+        <p class="page-subtitle">Een blik op ons werk en de sfeer van onze barbershop</p>
     </div>
 </section>
 
